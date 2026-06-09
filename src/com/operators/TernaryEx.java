@@ -1,0 +1,29 @@
+package com.operators;
+
+/*
+public class TernaryEx {
+
+    public static void main(String[] args) {
+        int a = 10, b = 20, c;
+        c = (a>b) ? a+b : a*b;
+        System.out.println("A : " + a + " B : " + b + " C : " + c);
+    }
+}
+*/
+
+
+/*public class TernaryEx{
+    public static void main(String[] args) {
+        int a=10, b=20,c;
+        c=(a>b) ? a+b :a*b;
+        System.out.println("A : "+a+" B : "+b+" C : "+c);
+    }
+}*/
+
+public class TernaryEx{
+    public static void main(String[] args) {
+        int a=10, b=20, c;
+        c=(a<b) ? a+b : a*b;
+        System.out.println("A : "+a+" B : "+b+" C : "+c);
+    }
+}
